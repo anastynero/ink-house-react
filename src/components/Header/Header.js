@@ -1,4 +1,4 @@
-import './Header.css';
+import '../../style/App.css';
 import logo from '../../img/logo.svg';
 import cart from '../../img/cart.png';
 

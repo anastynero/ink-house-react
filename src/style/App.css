@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,500;1,500&display=swap');
+@media (min-width: 1440px) {
+  .page-header{
+      width: 1100px;
+      margin: 0 auto;
+      height: 35px;
+      padding: 32px 165px;
+  }
+  .menu-item:not(:first-child){
+      margin-left: 60px;
+  }
+}
+.app{
+  font-family: Raleway;
+  line-height: 150%;
+}
+.container{
+  margin: 0 auto;
+  max-width: 1140px;
+}
+.header{
+  background-color: #E1EDE6;
+}
+.page-header_wrapper{
+  display: flex;
+  justify-content: space-between;
+}
+.menu{
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.hero-wrapper{
+  display: flex;
+  justify-content: space-between;
+}
+
+.standard-text{
+  font-family: Raleway;
+  font-size: 18px;
+  color: #86928B;
+}
+
+.btn{
+  color: #598D66;
+  font-size: 20px;
+  font-family: Raleway;
+  padding: 20px 60px;
+  border: 1px solid #598D66;
+  text-decoration: none;
+}
+
+.btn:hover{
+  color: #F4F6F5;
+  background-color: #598D66;
+}
+
+.btn:focus{
+  color: #598D66;
+  background-color: #D4E8D9;
+  border: 1px solid #598D66;
+}
+
+.btn:active{
+  color: #fff;
+  background-color: #376B44;
+  border: 1px solid #376B44;
+}
+
+.country-btn{
+  font-family: Raleway;
+  color: #2C2D35;
+  background-color: #D4E8D9;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border-color: #D4E8D9;
+}
+
+.country-btn:hover{
+  color: #F4F6F5;
+  background-color: #598D66;
+  border-color: #598D66;
+}
+
+.country-btn:focus{
+  color: #2C2D35;
+  background-color: #D4E8D9;;
+  border: 2px solid #598D66;
+}
+
+.country-btn:active{
+  color: #F4F6F5;
+  background-color: #376B44;
+  border-color: #376B44;
+}
+
+.hero-text{
+  margin: 145px 0;
+}
+
+.hero-text p{
+  margin-top: 20px;
+  margin-bottom: 60px;
+  color: #86928B;
+}
+
+.hero-text h3{
+  font-size: 60px;
+  line-height: 110%;
+}
+
+.hero-text span{
+  color: #598D66;
+}
