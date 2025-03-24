@@ -123,3 +123,33 @@
 .hero-text span{
   color: #598D66;
 }
+
+.catalog-wrapper{
+  display: flex;
+  justify-content: space-between;
+}
+
+.items{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.catalogItem{
+  background-color: #E1EDE6;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.item-price{
+  font-size: 24px;
+  color: #598D66;
+  margin-bottom: 40px;
+}
+
+.item-author{
+  color: #86928B;
+}
