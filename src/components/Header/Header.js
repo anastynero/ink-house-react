@@ -4,9 +4,8 @@ import cart from '../../img/cart.png';
 
 function Header() {
   return (
-    <div className='header'>
         <header className='page-header'>
-            <div className='page-header_wrapper'>
+            <div className='page-header_wrapper container'>
                 <div className='page-header_logo'>
                     <a href='#'>
                         <img src={logo}></img>
@@ -22,7 +21,6 @@ function Header() {
                 </div>
             </div>
         </header>
-    </div>
   );
 }
 
