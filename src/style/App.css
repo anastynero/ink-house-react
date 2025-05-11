@@ -134,8 +134,9 @@
 .items{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
   gap: 30px;
+  margin-bottom: 70px;
 }
 
 .catalogItem{
@@ -154,4 +155,13 @@
 
 .item-author{
   color: #86928B;
+}
+
+/*/  PROMO SECTION /*/
+
+.promo{
+  background-image: url('/src/img/pic_background.png');
+  background-repeat: no-repeat;
+  padding: 70px 0;
+  color: #fff;
 }
